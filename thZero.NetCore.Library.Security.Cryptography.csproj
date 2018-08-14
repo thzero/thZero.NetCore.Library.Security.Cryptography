@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<RootNamespace>thZero.Security.Cryptography</RootNamespace>
+		<Authors>thZero.com</Authors>
+		<Company>thZero.com</Company>
+		<PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Security.Cryptography</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Security.Cryptography</RepositoryUrl>
+		<RepositoryType>GitHub</RepositoryType>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Security.Cryptography.Cng" Version="4.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\thZero.NetCore.Library\thZero.NetCore.Library.csproj" />
+	</ItemGroup>
+
+</Project>
