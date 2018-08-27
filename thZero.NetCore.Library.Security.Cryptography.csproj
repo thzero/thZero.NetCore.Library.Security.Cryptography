@@ -1,17 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
-		<RootNamespace>thZero.Security.Cryptography</RootNamespace>
-		<Authors>thZero.com</Authors>
-		<Company>thZero.com</Company>
-		<PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
-		<PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Security.Cryptography</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Security.Cryptography</RepositoryUrl>
-		<RepositoryType>GitHub</RepositoryType>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>thZero.NetCore.Security.Cryptography.Library</AssemblyName>
+    <PackageId>thZero.NetCore.Security.Cryptography.Library</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <Description></Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/thzero/thZero.NetCore.Library.Security.Cryptography</PackageProjectUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryUrl>https://github.com/thzero/thZero.NetCore.Library.Security.Cryptography</RepositoryUrl>
+    <Authors>thZero.com</Authors>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Include="..\thZero.NetCore.Library\CommonAssemblyInfo.cs" Link="CommonAssemblyInfo.cs" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="System.Security.Cryptography.Cng" Version="4.4.0" />

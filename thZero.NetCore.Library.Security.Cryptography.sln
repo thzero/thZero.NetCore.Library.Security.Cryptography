@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thZero.NetCore.Library.Security.Cryptography", "thZero.NetCore.Library.Security.Cryptography.csproj", "{8E20B132-0F5B-4961-88FD-FBE1A70BAFA5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thZero.NetCore.Library", "..\thZero.NetCore.Library\thZero.NetCore.Library.csproj", "{FCEE3FF2-2E0E-45E3-9C78-969DC2BFDAFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8E20B132-0F5B-4961-88FD-FBE1A70BAFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E20B132-0F5B-4961-88FD-FBE1A70BAFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E20B132-0F5B-4961-88FD-FBE1A70BAFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEE3FF2-2E0E-45E3-9C78-969DC2BFDAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEE3FF2-2E0E-45E3-9C78-969DC2BFDAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEE3FF2-2E0E-45E3-9C78-969DC2BFDAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEE3FF2-2E0E-45E3-9C78-969DC2BFDAFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
