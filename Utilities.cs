@@ -55,12 +55,12 @@ namespace thZero.Utilities
 			Enforce.AgainstNull(() => characterSet);
 
 			if (length < 0)
-				throw new ArgumentException("length must not be negative", "length");
+				throw new ArgumentException("length must not be negative", nameof(length));
 			if (length > int.MaxValue / 8) // 250 million chars ought to be enough for anybody
-				throw new ArgumentException("length is too big", "length");
+				throw new ArgumentException("length is too big", nameof(length));
 			var characterArray = characterSet.Distinct().ToArray();
 			if (characterArray.Length == 0)
-				throw new ArgumentException("characterSet must not be empty", "characterSet");
+				throw new ArgumentException("characterSet must not be empty", nameof(characterSet));
 
 			var bytes = new byte[length * 8];
 			new RNGCryptoServiceProvider().GetBytes(bytes);
